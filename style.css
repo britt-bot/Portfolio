@@ -1,0 +1,265 @@
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+}
+
+::selection {
+    background-color: var(--bright-turquoise);
+    color: var(--outer-space);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: var(--gin);
+    background-color: var(--outer-space);
+    /* background-image: url('../assets/pastel-pour.png'); */
+}
+
+nav {
+    text-align: center;
+}
+a {
+    color:#2aefcb;
+    text-decoration: none;
+	color: #aaf;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+
+a:hover {
+    color:rgba(232, 102, 236, 0.3);
+    text-decoration: none;
+	color: #fff;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: var(--heliotrope);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+
+p {
+    margin-bottom: 1rem;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+    /* padding: 2.5rem; */
+    text-align: center;
+}
+
+header h1.page-title {
+    padding: 1rem 1.2rem;
+    font-size: 4.5rem;
+}
+
+header.photo {
+    justify-content: center;
+}
+
+main {
+    width: 96%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+main h2.bio {
+    text-align: center;
+}
+main h2.contact {
+    text-align: center;
+}
+main h2.app {
+    text-align: center;
+    background-image: url('../img/pastel-placeholder-ver1.png')
+}
+
+img.placeholder {
+    height: 50%;
+    width: 50%;
+    border-radius: 8px;
+}
+
+a.sites {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+
+footer {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.bio-nav {
+    padding-right: 25px;
+}
+
+.work-nav {
+    padding-right: 25px;
+}
+
+.contact-nav {
+    /* padding-right: 25px; */
+}
+
+
+.left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    margin-right: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 20px;
+    margin-left: 50%;
+}
+
+.about {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    width: 50%;
+    padding: 20px;
+    margin-top: 5%;
+    margin-right: 50%;
+}
+
+.work {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 50%;
+    padding: 20px;
+    margin-left: 50%;
+    margin-top: -100%;
+}
+
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-right: 50%;
+}
+
+.card-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: stretch;
+    align-content: space-around;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.card-column-work {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
+    /* padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem; */
+}
+
+.code-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    outline: 2px dashed var(--gin);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-card .card-header {
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--outer-space);
+    color: var(--heliotrope);
+    border: 2px solid var(--gin);
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.code-card:hover,
+.code-card:hover .card-header {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+
+.code-card .code-block {
+    flex-grow: 1;
+}
+
+
+
+/* @media screen and (min-width: 992px) {
+    .card {
+        width: 85%;
+    }
+}
+
+@media tablet and (min-width: 768px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media mobile and (min-width: 480px) {
+    .card {
+        width: 50%;
+    }
+} */
+
+
+
+
+    /* use linear-gradient() function to create a fading background 
+    background-image: linear-gradient(
+      rgba(232, 102, 236, 0.3) 0%,
+      rgba(232, 102, 236, 0.6) 100%
+    );
+    display: flex;
+    align-items: center; */
+

@@ -35,7 +35,7 @@ nav {
 }
 a {
     text-decoration: none;
-	color: white;
+	color: var(--outer-space);
 	text-shadow: none;
 	-webkit-transition: 500ms linear 0s;
 	-moz-transition: 500ms linear 0s;
@@ -49,7 +49,7 @@ a:hover {
     color:rgba(232, 102, 236, 0.3);
     text-decoration: none;
 	color: turquoise;
-	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #FBFBFE;
 }
 
 h1,
@@ -70,32 +70,8 @@ h1 {
 
 h2 {
     font-size: 3.5rem;
-}
-
-
-p {
-    margin-bottom: 1rem;
-}
-
-header {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    /* background-image: url('assets/pastel-pour.png'); */
-    border-radius: 4px;
-}
-
-header h1.page-title {
-    padding: 1rem 1.2rem;
-    font-size: 4.5rem;
-}
-
-
-main {
-    width: 96%;
-    margin: 2rem auto;
-    /* text-align: center; */
-    /* column-count: 2; */
+    text-shadow: 0 0 3px var(--outer-space), 0 0 8px var(--outer-space);
+    opacity: 75%;
 }
 
 main h2.bio {
@@ -106,6 +82,38 @@ main h2.contact {
 }
 main h2.app {
     text-align: center;
+    opacity: 75%;
+    text-shadow: 0 0 5px var(--gin), 0 0 12px var(--gin);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    color: #FBFBFE;
+    opacity: 75%;
+}
+
+header h1.page-title {
+    padding: 1rem 1.2rem;
+    font-size: 4.5rem;
+    opacity: 85%;
+    text-shadow: 0 0 10px var(--heliotrope), 0 0 12px var(--heliotrope);
+    color: var(--gin)
+}
+
+header p {
+    opacity: 75%;
+}
+
+main {
+    width: 96%;
+    margin: 2rem auto;
 }
 
 img.placeholder {
@@ -115,6 +123,7 @@ img.placeholder {
     min-height: 100%;
     outline: 2px hidden var(--gin);
     box-shadow: inset 0px 0px 8px var(--gin), 0 0 15px var(--gin);
+    opacity: 75%;
 }
 
 img.placeholder:hover,
@@ -145,7 +154,8 @@ footer {
     justify-content: center;
     width: 100%;
     margin-right: 50%;
-    color: var(--outer-space);
+    color: #FBFBFE;
+    opacity: 90%;
 }
 
 .contact {
@@ -154,7 +164,14 @@ footer {
     justify-content: center;
     width: 100%;
     margin-right: 50%;
-    color: var(--outer-space);
+    color: #FBFBFE;
+    opacity: 90%;
+}
+
+.contact h2 {
+    color: var(--heliotrope);
+    text-shadow: 0 0 3px var(--outer-space), 0 0 8px var(--outer-space);
+    opacity: 75%;
 }
 
 .photo {
@@ -163,6 +180,7 @@ footer {
     justify-content: center;
     width: 100%;
     margin-right: 50%;
+    border-radius: 4px;
 }
 
 .work {

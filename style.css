@@ -32,6 +32,8 @@ nav {
     border-radius: 4px;
     padding: 5px;
     margin: 20px 50px 0 50px;
+    text-shadow: 0 0 3px #FBFBFE, 0 0 8px #FBFBFE;
+    opacity: 75%;
 }
 a {
     text-decoration: none;
@@ -62,10 +64,6 @@ h6 {
   color: var(--heliotrope);
   font-weight: 700;
   line-height: 1.1;
-}
-
-h1 {
-    font-size: 4rem;
 }
 
 h2 {
@@ -102,8 +100,8 @@ header {
 header h1.page-title {
     padding: 1rem 1.2rem;
     font-size: 4.5rem;
-    opacity: 85%;
-    text-shadow: 0 0 10px var(--heliotrope), 0 0 12px var(--heliotrope);
+    opacity: 90%;
+    text-shadow: 0 0 8px var(--heliotrope), 0 0 8px var(--heliotrope);
     color: var(--gin)
 }
 
@@ -181,6 +179,12 @@ footer {
     width: 100%;
     margin-right: 50%;
     border-radius: 4px;
+}
+
+.photo img {
+    border-radius: 4px;
+    box-shadow: 0 0 8px var(--outer-space), 0 0 5px var(--outer-space);
+    opacity: 75%;
 }
 
 .work {

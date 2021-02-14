@@ -76,6 +76,8 @@ header {
     margin: 0 auto;
     /* padding: 2.5rem; */
     text-align: center;
+    background-image: url('assets/pastel-pour.png');
+    border-radius: 4px;
 }
 
 header h1.page-title {
@@ -83,14 +85,15 @@ header h1.page-title {
     font-size: 4.5rem;
 }
 
-header.photo {
+/* header.photo {
     justify-content: center;
-}
+} */
 
 main {
     width: 96%;
     margin: 2rem auto;
-    text-align: center;
+    /* text-align: center; */
+    /* column-count: 2; */
 }
 
 main h2.bio {
@@ -101,19 +104,17 @@ main h2.contact {
 }
 main h2.app {
     text-align: center;
-    background-image: url('../img/pastel-placeholder-ver1.png')
+    /* background-color: #2aefcb; */
 }
 
 img.placeholder {
-    height: 50%;
-    width: 50%;
-    border-radius: 8px;
+    height: 75%;
+    width: 75%;
+    border-radius: 4px;
 }
 
 a.sites {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
+    padding: 50px;
 }
 
 footer {
@@ -133,32 +134,28 @@ footer {
     /* padding-right: 25px; */
 }
 
-
-.left {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 20px;
-    margin-right: 50%;
-}
-
-.right {
+.whole {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
     padding: 20px;
-    margin-left: 50%;
+    /* margin-left: 50%; */
 }
 
 .about {
     display: flex;
     flex-flow: column wrap;
-    justify-content: left;
-    width: 50%;
-    padding: 20px;
-    margin-top: 5%;
+    justify-content: center;
+    width: 100%;
+    margin-right: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
     margin-right: 50%;
 }
 
@@ -167,17 +164,8 @@ footer {
     flex-flow: column wrap;
     justify-content: space-around;
     width: 50%;
-    padding: 20px;
     margin-left: 50%;
-    margin-top: -100%;
-}
-
-.contact {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 100%;
-    margin-right: 50%;
+    margin-top: -54.15%;
 }
 
 .card-column {
@@ -191,15 +179,18 @@ footer {
     margin-bottom: 1.5rem;
 }
 
+.card-body img{
+    width: 100%;
+}
+
+.card-body {
+    justify-content: center;
+    text-align: center;
+}
+
 .card-column-work {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: space-between;
-    /* padding: 1.5rem;
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem; */
 }
 
 .code-card {
@@ -209,8 +200,6 @@ footer {
     min-height: 100%;
     padding: 2rem;
     outline: 2px dashed var(--gin);
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
 }
 
 .code-card .card-header {
@@ -223,24 +212,26 @@ footer {
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
+
 .code-card:hover,
 .code-card:hover .card-header {
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
 }
 
+/* FIX THIS SHIT
 .code-card .code-block {
     flex-grow: 1;
-}
+} */
 
 
-
-/* @media screen and (min-width: 992px) {
+/* FIX THIS SHIT TOO! */
+@media screen and (min-width: 992px) {
     .card {
         width: 85%;
     }
 }
 
-@media tablet and (min-width: 768px) {
+/* @media tablet and (min-width: 768px) {
     .card {
         width: 50%;
     }
@@ -250,11 +241,11 @@ footer {
     .card {
         width: 50%;
     }
-} */
+}  */
 
 
 
-
+/* TRY TO FIX THIS SHIT! */
     /* use linear-gradient() function to create a fading background 
     background-image: linear-gradient(
       rgba(232, 102, 236, 0.3) 0%,

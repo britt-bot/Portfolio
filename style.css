@@ -1,8 +1,9 @@
+/* pseudos */
 :root {
     --outer-space: #33393f;
-    --bright-turquoise: #2aefcb;
-    --gin: #e0eae4;
-    --heliotrope: #e866ec;
+    --bright-turquoise: #ac63cf;
+    --gin: #dd55d4;
+    --heliotrope: #2aefcb;
 }
 
 ::selection {
@@ -10,6 +11,7 @@
     color: var(--outer-space);
 }
 
+/* elements */
 html {
     font-size: 62.5%;
 }
@@ -21,28 +23,32 @@ body {
     line-height: 1.5;
     color: var(--gin);
     background-color: var(--outer-space);
-    /* background-image: url('../assets/pastel-pour.png'); */
 }
 
 nav {
     text-align: center;
+    background-image: url('assets/pastel-pour.png');
+    opacity: 75%;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px 50px 0 50px;
 }
 a {
-    color:#2aefcb;
     text-decoration: none;
-	color: #aaf;
+	color: white;
 	text-shadow: none;
 	-webkit-transition: 500ms linear 0s;
 	-moz-transition: 500ms linear 0s;
 	-o-transition: 500ms linear 0s;
 	transition: 500ms linear 0s;
 	outline: 0 none;
+    padding: 20px;
 }
 
 a:hover {
     color:rgba(232, 102, 236, 0.3);
     text-decoration: none;
-	color: #fff;
+	color: turquoise;
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 
@@ -74,9 +80,8 @@ p {
 header {
     width: 50%;
     margin: 0 auto;
-    /* padding: 2.5rem; */
     text-align: center;
-    background-image: url('assets/pastel-pour.png');
+    /* background-image: url('assets/pastel-pour.png'); */
     border-radius: 4px;
 }
 
@@ -85,9 +90,6 @@ header h1.page-title {
     font-size: 4.5rem;
 }
 
-/* header.photo {
-    justify-content: center;
-} */
 
 main {
     width: 96%;
@@ -104,13 +106,20 @@ main h2.contact {
 }
 main h2.app {
     text-align: center;
-    /* background-color: #2aefcb; */
 }
 
 img.placeholder {
-    height: 75%;
-    width: 75%;
-    border-radius: 4px;
+    height: 25%;
+    width: 25%;
+    border-radius: 8px;
+    min-height: 100%;
+    outline: 2px hidden var(--gin);
+    box-shadow: inset 0px 0px 8px var(--gin), 0 0 15px var(--gin);
+}
+
+img.placeholder:hover,
+img.placeholder:hover .card-header {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
 }
 
 a.sites {
@@ -122,25 +131,12 @@ footer {
     text-align: center;
 }
 
-.bio-nav {
-    padding-right: 25px;
-}
-
-.work-nav {
-    padding-right: 25px;
-}
-
-.contact-nav {
-    /* padding-right: 25px; */
-}
-
+/* classes + flexbox */
 .whole {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     width: 50%;
     padding: 20px;
-    /* margin-left: 50%; */
 }
 
 .about {
@@ -149,9 +145,19 @@ footer {
     justify-content: center;
     width: 100%;
     margin-right: 50%;
+    color: var(--outer-space);
 }
 
 .contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    margin-right: 50%;
+    color: var(--outer-space);
+}
+
+.photo {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -165,7 +171,13 @@ footer {
     justify-content: space-around;
     width: 50%;
     margin-left: 50%;
-    margin-top: -54.15%;
+    margin-top: -95.10%;
+}
+
+.card.code-card {
+    background-image: url('assets/pastel-pour.png');
+    opacity: 75%;
+    border-radius: 4px;
 }
 
 .card-column {
@@ -199,9 +211,8 @@ footer {
     justify-content: flex-start;
     min-height: 100%;
     padding: 2rem;
-    outline: 2px dashed var(--gin);
+    box-shadow: inset 0px 0px 8px var(--gin), 0 0 15px var(--gin);
 }
-
 .code-card .card-header {
     position: relative;
     margin: -4rem 0 1.5rem 0;
@@ -218,30 +229,42 @@ footer {
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
 }
 
-/* FIX THIS SHIT
-.code-card .code-block {
-    flex-grow: 1;
-} */
+/* media queries */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.column {
+    flex: 25%;
+    padding: 20px;
+}
 
-/* FIX THIS SHIT TOO! */
-@media screen and (min-width: 992px) {
+/* FIX THIS */
+@media screen and (max-width: 992px) {
     .card {
-        width: 85%;
+        flex: 50%;
+        max-width:100%;
+        height:auto;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        max-width:100%;
+        height:auto;
     }
 }
 
-/* @media tablet and (min-width: 768px) {
+@media screen and (max-width: 480px) {
     .card {
-        width: 50%;
+        float: none;
+        width: 100%;
+        width: 25%;
+        height: auto;
     }
-}
-
-@media mobile and (min-width: 480px) {
-    .card {
-        width: 50%;
-    }
-}  */
+} 
 
 
 

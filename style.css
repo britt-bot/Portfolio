@@ -48,10 +48,9 @@ a {
 }
 
 a:hover {
-    color:rgba(232, 102, 236, 0.3);
     text-decoration: none;
-	color: turquoise;
-	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #FBFBFE;
+	color: purple;
+	text-shadow: -1px 1px 8px #FBFBFE, 1px -1px 8px #FBFBFE;
 }
 
 h1,
@@ -79,7 +78,7 @@ main h2.contact {
     text-align: center;
 }
 main h2.app {
-    text-align: center;
+    text-align: right;
     opacity: 75%;
     text-shadow: 0 0 5px var(--gin), 0 0 12px var(--gin);
 }
@@ -122,6 +121,7 @@ img.placeholder {
     outline: 2px hidden var(--gin);
     box-shadow: inset 0px 0px 8px var(--gin), 0 0 15px var(--gin);
     opacity: 75%;
+    justify-content: center;
 }
 
 img.placeholder:hover,
@@ -183,14 +183,14 @@ footer {
 
 .photo img {
     border-radius: 4px;
-    box-shadow: 0 0 8px var(--outer-space), 0 0 5px var(--outer-space);
+    box-shadow: 0 0 10px var(--outer-space), 0 0 2px var(--outer-space);
     opacity: 75%;
 }
 
 .work {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: center;
     width: 50%;
     margin-left: 50%;
     margin-top: -95.10%;
@@ -225,6 +225,8 @@ footer {
 .card-column-work {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .code-card {
@@ -264,33 +266,50 @@ footer {
 
 /* FIX THIS */
 @media screen and (max-width: 992px) {
-    .card {
+    .whole {
         flex: 50%;
         max-width:100%;
         height:auto;
     }
+
+    .work {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
 } 
 
 @media screen and (max-width: 768px) {
-    .card {
+    .whole {
         flex-direction: column;
-        max-width:100%;
+        width:100%;
         height:auto;
+    }
+
+    .work {
+        float: none;
+        width: 100%;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .card {
+    .whole {
         float: none;
         width: 100%;
-        width: 25%;
+        height: auto;
+    }
+
+    .work {
+        float: none;
+        width: 100%;
         height: auto;
     }
 } 
 
 
 
-/* TRY TO FIX THIS SHIT! */
+/* TRY TO FIX THIS */
     /* use linear-gradient() function to create a fading background 
     background-image: linear-gradient(
       rgba(232, 102, 236, 0.3) 0%,

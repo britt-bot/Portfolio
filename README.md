@@ -54,8 +54,7 @@ HTML Frame:
 Mix of the Prework homework and the Flexbox mini project from Week 2 - Lesson 28.
 
 Glow effect: 
-
-[CSS Glowing Link Effect](https://www.sitepoint.com/css3-glowing-link-effect/)
+    [CSS Glowing Link Effect](https://www.sitepoint.com/css3-glowing-link-effect/)
 
 
 ## License

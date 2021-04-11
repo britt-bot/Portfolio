@@ -6,6 +6,7 @@ This is the first version of my portfolio and was my first website to code mysel
 Continue watching the page transform as I learn:
 
 MOST CURRENT VERSION:
+
 [Homework 08 - Updated Portfolio Repo](https://github.com/britt-bot/08-updated_portfolio)
 
 [Homework 08 - Updated Portfolio Deployed](https://britt-bot.github.io/08-Updated_Portfolio/)

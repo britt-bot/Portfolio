@@ -1,15 +1,19 @@
 # 02-portfolio
 ## Description 
 
-This is the first version of my portfolio and was my first website to code myself. 
+A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles. This is part of the evolution of my skills through the progression shown in my portfolio.
 
-Continue watching the page transform as I learn:
+This version, Homework 02 - Portfolio, completed 02/13/2021. 
 
-MOST CURRENT VERSION:
 
-[Homework 08 - Updated Portfolio Repo](https://github.com/britt-bot/08-updated_portfolio)
+Here are the links to the updated versions of my Portfolio:
 
-[Homework 08 - Updated Portfolio Deployed](https://britt-bot.github.io/08-Updated_Portfolio/)
+[Homework 08 - Portfolio Repo](https://github.com/britt-bot/08-updated_portfolio)
+
+[Homework 16 - Updated Portfolio Repo](https://github.com/britt-bot/16-Updated_Portfolio)
+
+[Homework 20 - REACT Portfolio Repo](https://github.com/britt-bot/20-React_Portfolio)
+
 
 ## Table of Contents 
 
@@ -25,14 +29,14 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Homework 02 - Portfolio Repo](https://github.com/britt-bot/02-Portfolio)
+[Homework 02 - Portfolio Github Repo](https://github.com/britt-bot/02-Portfolio)
 
-[Homework 02 - Portfolio Deployed](https://britt-bot.github.io/02-Portfolio/)
+[Homework 02 - Portfolio Github Deploy](https://britt-bot.github.io/02-Portfolio/)
 
 
 ## Usage 
 
-A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles.
+This is used to show potential clients and employers my skills, by demonstrating them in both, the front and back-end design of this page. This page is also showcasing the previous projects I have worked on, which show various other skill sets gained from both solo and team work environments. 
 
 ![Screenshot](https://user-images.githubusercontent.com/77466708/114288814-f3da9780-9a37-11eb-894d-d305f0ff20db.png)
 
@@ -50,12 +54,9 @@ All general HTML/CSS queries:
 
 [MZN Docs](https://developer.mozilla.org/en-US/)
 
-HTML Frame: 
-Mix of the Prework homework and the Flexbox mini project from Week 2 - Lesson 28.
+HTML Frame: Mix of the Prework homework and the Flexbox mini project from Week 2 - Lesson 28.
 
-Glow effect: 
-
-[CSS Glowing Link Effect](https://www.sitepoint.com/css3-glowing-link-effect/)
+Glow effect: [CSS Glowing Link Effect](https://www.sitepoint.com/css3-glowing-link-effect/)
 
 
 ## License

@@ -1,10 +1,13 @@
 ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 # Portfolio... The Beginning
+
 ## Description 
 
 A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles. This is part of the evolution of my skills through the progression shown in my portfolio.
 
-This version, 02 - Portfolio, completed 02/13/2021. 
+
+Here is the link to the previous version of my Portfolio:
+[Prework-Portfolio Repo](https://github.com/britt-bot/Prework-Portfolio/blob/master/README.md)
 
 
 Here are the links to the updated versions of my Portfolio:

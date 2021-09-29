@@ -1,5 +1,5 @@
 ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-# 02-portfolio
+# Portfolio... The Beginning
 ## Description 
 
 A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles. This is part of the evolution of my skills through the progression shown in my portfolio.
@@ -37,7 +37,7 @@ Open the desired web browser and go to the page url for either the Repo or the D
 
 ## Usage 
 
-This is used to show potential clients and employers my skills, by demonstrating them in both, the front and back-end design of this page. This page is also showcasing the previous projects I have worked on, which show various other skill sets gained from both solo and team work environments. 
+This application is used to show potential clients and employers my skills, by demonstrating them in both, the front and back-end design of this page. This page is also showcasing the previous projects I have worked on, which show various other skill sets gained from both solo and team work environments. 
 
 ![Screenshot](https://user-images.githubusercontent.com/77466708/114288814-f3da9780-9a37-11eb-894d-d305f0ff20db.png)
 

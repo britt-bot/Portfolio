@@ -34,9 +34,9 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Portfolio Github Repo](https://github.com/britt-bot/02-Portfolio)
+[Portfolio Repo](https://github.com/britt-bot/02-Portfolio)
 
-[Portfolio Github Deploy](https://britt-bot.github.io/02-Portfolio/)
+[Portfolio Deploy](https://britt-bot.github.io/02-Portfolio/)
 
 
 ## Usage 

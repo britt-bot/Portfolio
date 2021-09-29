@@ -3,7 +3,7 @@
 
 ## Description 
 
-A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles. This is part of the evolution of my skills through the progression shown in my portfolio.
+A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles. 
 
 
 Here is the link to the previous version of my Portfolio:

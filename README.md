@@ -8,7 +8,7 @@ A portfolio is a gathering of completed and in progress works, that are used to 
 
 Here is the link to the previous version of my Portfolio:
 
-[Prework-Portfolio Repo](https://github.com/britt-bot/Prework-Portfolio/blob/master/README.md)
+[Prework-Portfolio Repo](https://github.com/britt-bot/Prework-Portfolio)
 
 
 Here are the links to the updated versions of my Portfolio:
